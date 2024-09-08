@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-main_dir="/home/artyom/Desktop/files/c_lang/DataStructures_Algorithms"
+main_dir="*****************************************"
 readme_file="README.md"
 
 # Check if README.md exists in the main directory
