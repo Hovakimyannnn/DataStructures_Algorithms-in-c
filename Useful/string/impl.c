@@ -23,7 +23,7 @@ void init(struct String *str) {
     if (!str) exit(1);
     str->cap = 1;
     str->size = 0;
-    str->vector = malloc(sizeof(char) * str->cap);
+    str->vector = malloc(sizeof(char) * str->cap );
 }
 
 void destroy(struct String *str) {

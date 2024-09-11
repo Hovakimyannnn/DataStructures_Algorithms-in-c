@@ -13,4 +13,4 @@ struct String {
 };
 
 
-#endif // STRING
+#endif // STRING_

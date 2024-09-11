@@ -8,7 +8,7 @@ int main () {
     push_back(&str,'H');
     push_back(&str,'H');
     push_back(&str,'H');
-    insert(&str,1,'A');
+    insert(&str,1,'B');
     pop_back(&str);
 
     destroy(&str);
