@@ -1,5 +1,5 @@
-#ifndef LIST
-#define LIST
+#ifndef LIST_
+#define LIST_
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
@@ -26,4 +26,4 @@ void push_front(List *, int);
 void insert(List *, int, int);
 
 
-#endif //LIST
+#endif //LIST_

@@ -1,6 +1,6 @@
 #include "include.h"
 int main() {
-    List *list = (List*)malloc(sizeof(List));
+    List *list = (List*)malloc(sizeof(List) );
     constructor_list(list);
     push_back(list,10);
     push_back(list,20);

@@ -1,5 +1,5 @@
 #include "include.h"
-void constructor_list(List *list) {
+void constructor_list(List *list ) {
     list->size = 0;
     list->head = NULL;
 }
