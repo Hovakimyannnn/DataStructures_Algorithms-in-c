@@ -5,39 +5,40 @@ It provides functionality for string manipulation, including dynamic memory allo
 ## Structure Overview
 
 The `String` structure is defined as follows:
-
+```c
 struct String {
     char *vector;   // Pointer to the dynamically allocated character array
     int size;       // Current size of the string (excluding the null-terminator)
     int cap;        // Capacity of the allocated memory (including space for the null-terminator)
 };
-
+```
+ 
 This structure manages a string of characters, dynamically resizing the memory allocation as needed when the string grows or shrinks.
 
 ## Functions Overview
 
-- **void init(struct String *str)**
+- **void init(struct String *str)**:
 Initializes the String structure with an initial capacity of 1 and sets the size to 0. The function allocates memory for the character array.
 
-- **void destroy(struct String *str)**
+- **void destroy(struct String *str)**:
 Frees the memory allocated for the String and resets its size and capacity to 0.
 
-- **char at(struct String *str, int pos)**
+- **char at(struct String *str, int pos)**:
 Returns the character at the specified position. If the position is invalid, the program exits with an error.
 
-- **char front(struct String *str)**
+- **char front(struct String *str)**:
 Returns the first character of the string. The program exits if the string is empty.
 
-- **char back(struct String *str)**
+- **char back(struct String *str)**:
 Returns the last character of the string. The program exits if the string is empty.
 
-- **int size(struct String *str)**
+- **int size(struct String *str)**:
 Returns the current number of characters in the string (excluding the null-terminator).
 
-- **int cap(struct String *str)**
+- **int cap(struct String *str)**:
 Returns the current capacity of the string (including space for the null-terminator).
 
-- **bool empty(struct String *str)**
+- **bool empty(struct String *str)**:
 Returns true if the string is empty (i.e., size is 0), and false otherwise.
 
 - **void reserve(struct String *str, int new_cap)**:

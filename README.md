@@ -66,7 +66,7 @@ Searching algorithms find specific elements within a data structure. Examples in
 
 To get started with the implementations in this repository:
 
-1. **Clone the repository**: `git clone https://github.com/your-username/DataStructures-Algorithms.git`
+1. **Clone the repository**: `git clone https://github.com/Hovakimyannnn/DataStructures-Algorithms.git`
 2. **Navigate to the directory**: `cd DataStructures-Algorithms`
 3. **Choose a data structure or algorithm**: Browse through the folders to explore implementations and problem solutions.
 4. **Run the code**: Compile and run the code samples in your preferred programming environment.
